@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table.html</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .r1c1 { height: 100px; width: 100px; }
+        .r1c3 { height: 100px; width: 200px; }
+        .r1c4, .r1c5, .r3c6 { width: 100px; }
+        .r3c1 { height: 200px; }
+        .r4c1 { height: 50px; }
+        .r4c2, .r4c4 { width: 100px; }
+        .r5c1 { height: 100px; }
+        .r5c3 { width: 200px; }
+    </style>
+     
+</head>
+<body>
+    <table  border="1" style="border-collapse: collapse;">
+       
+        <tr>
+            
+          <td colspan="2" rowspan="2"><img width="60" src="image1.webp" alt="image1"></td>
+         
+            <td bgcolor="#FFA500">r1c3</td>
+            <td rowspan="2" bgcolor="#FFD700">r1c4</td>
+            <td colspan="2" rowspan="2">r1c5</td>
+        </tr>
+        <tr>
+            
+            <td rowspan="2"><a href="http://mail.google.com/" target="_blank">EMAIL</a></td>
+            
+        </tr>
+        
+        <tr>
+            
+            <td colspan="2"><a href="home.html" target="_blank">home.html</a></td>
+            
+            <td colspan="2"><a href="images2.jpeg" target="_blank">image</a></td>
+            <td>r3c6</td>
+
+        </tr>
+        <tr>
+            
+            <td bgcolor="#FFA500">r4c1</td>
+            <td colspan="2" bgcolor="#FFA500">r4c2</td>
+            <td rowspan="2">r4c4</td>
+            <td colspan="2">r4c5</td>
+
+        </tr>
+        <tr>
+            
+            <td colspan="2" rowspan="2" bgcolor="#FFA500">r5c1</td>
+            <td rowspan="2" bgcolor="#FFD700">r5c3</td>
+            
+            <td colspan="2" rowspan="2" bgcolor="#FFD700">r5c5</td>
+        </tr>
+        <tr>
+            
+            <td bgcolor="#FFD700">r6c4</td>
+        </tr>
+    </table>
+</body>
+</html>
